@@ -1,7 +1,7 @@
 ## NYU Short-Term Intensive Training Front End Engineer Application Challenge (Whew!)
 This is a brief coding challenge to pull events from around a user's neighborhood using the Yelp API.
 
-### [Live Demo](https://kotavy.github.io/nyu-stit-frontend-challenge/)
+### [Live Demo](https://nyu-stit-frontend-challenge.herokuapp.com/)
 
 ### Takeaways
 It took me a bit longer than the suggested 2-4hr time frame. The Yelp Fusion API was not friendly to work with, particularly for Events. Searching businesses seemed to have more documentation and example code. But hey, we code to solve problems, right? I still have much to learn about routing API calls, I will say I struggle with sending keys through headers. Additionally ran into difficulty after POSTing back with the lat/long coordinates to get res.render or res.redirect to register a call in the browser, which is currently worked around with a timer, I would much rather have this be a proper callback to sync with the API actually sending data.

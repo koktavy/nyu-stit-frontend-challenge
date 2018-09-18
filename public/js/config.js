@@ -1,0 +1,5 @@
+var config = {
+	YELP_KEY:'fcPUZovsuNb-UxcKPGK2BKpz-OtdwtYuBvEYHl656ipSYF2dE52_K4w8mS9hLSWZh00PFFVotNIxgMKpzBbYZCaAvETLJbS4XIN6b3yQJTh68dT2_B0Gj0lNagacW3Yx',
+	RAPID_YELP_APP:'default-application_5ba0143de4b02d6cfa6a3694',
+	RAPID_YELP_KEY:'02304d8e-1224-4cec-8283-9d931ed0a20c'
+};

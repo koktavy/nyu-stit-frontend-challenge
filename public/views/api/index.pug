@@ -1,0 +1,29 @@
+doctype html
+html
+	head
+		title E.V.E.
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+		script(type='text/javascript' src='../../js/config.js')
+		script(type='text/javascript' src='../../js/utilities.js')
+		style(type='text/css').
+			body{
+				background: rgb(30, 30, 30);
+			}
+			.event{
+				border: 1px solid grey;
+			}
+			h1, h2, p, a{
+				color: rgb(245, 245, 245);
+				margin-left: 1em;
+			}
+	body
+		h1 E.V.E. - EAST VILLAGE EVENTS
+		div.container
+			each event in data
+				div.event
+					h2= event.name
+					- var loc = event.location.address1;
+					a(href=('https://www.google.com/maps/search/?api=1&query=' + loc)) #{loc}
+					p= event.time_start
+					p Cost: $!{event.cost}
+					//time, distance, cost

@@ -25,9 +25,9 @@ function getUserData(position) {
 	});
 	// After waiting for location permissions, let the server run
 	setTimeout(function() {
-		// after 3 seconds, could be faster
+		// after 2 seconds, could be faster?
 		window.location = "/api/";
-	}, 3000)
+	}, 2000)
 }
 
 function showError(error) {

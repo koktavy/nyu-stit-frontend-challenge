@@ -75,8 +75,8 @@ function dateString(end) {
 function send(_data) {
 	console.log(_data)
 	$.ajax({
-		// 'http://localhost:5000/save/' +
-		url: 'http://localhost:5000/',
+		// 'http://localhost:5000/'
+		url: 'https://nyu-stit-frontend-challenge.herokuapp.com/',
 		method: 'POST',
 		data: _data,
 		dataType: 'json'

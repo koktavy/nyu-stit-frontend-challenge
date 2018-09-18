@@ -17,9 +17,7 @@
     "npm": "^5.10.0",
     "path": "^0.12.7",
     "pug": "^2.0.3",
-    "rapidapi-connect": "0.0.6",
-    "yelp-fusion": "github:kotavy/yelp-fusion"
-  },
+    "rapidapi-connect": "0.0.6"  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kotavy/eve-challenge"
